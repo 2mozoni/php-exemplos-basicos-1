@@ -27,6 +27,8 @@
         $username = "root";
         $password = "";
         $dbname = "exercicio";
+        $password = "Senai@118";
+        $dbname = "exercicios";
 
         $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -50,4 +52,5 @@
     }
     ?>
 </body>
+</html>
 </html>
