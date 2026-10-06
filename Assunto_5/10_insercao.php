@@ -25,8 +25,6 @@
         // Conecta ao banco de dados
         $servername = "localhost";
         $username = "root";
-        $password = "";
-        $dbname = "exercicio";
         $password = "Senai@118";
         $dbname = "exercicios";
 
@@ -52,5 +50,4 @@
     }
     ?>
 </body>
-</html>
 </html>

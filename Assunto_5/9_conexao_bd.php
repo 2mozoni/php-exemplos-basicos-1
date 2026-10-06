@@ -20,8 +20,6 @@ try {
 
 $servername = 'localhost';
 $username = 'root';
-$password = '';
-$dbname = 'exercicio';
 $password = 'Senai@118';
 $dbname = 'exercicios';
 
