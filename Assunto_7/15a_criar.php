@@ -22,6 +22,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $usuario = $_POST['usuario'];
     $senha = $_POST['senha'];
 
+    // Dados para conexão com o banco de dados
+    $servername = "localhost";
+    $username = "root";
+    $password = "Senai@118";
+    $dbname = "exercicios";
 
     // Conecta ao MySQL
     $conn = new mysqli($servername, $username, $password);
